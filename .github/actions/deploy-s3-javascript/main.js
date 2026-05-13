@@ -26,7 +26,7 @@ async function run() {
     });
 
     // file you want to upload
-    const fileContent = fs.readFileSync('./dist/index.html');
+    const fileContent = fs.readFileSync('../../../../dist/index.html');
 
     const command = new PutObjectCommand({
       Bucket: process.env.R2_BUCKET_NAME,
