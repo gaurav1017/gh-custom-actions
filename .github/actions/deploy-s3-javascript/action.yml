@@ -2,5 +2,5 @@ name: 'Deploy to Cloudflare R2'
 description: 'Deploy files to Cloudflare R2 storage.'
 
 runs:
-  using: 'node22'
+  using: 'node24'
   main: 'main.js'
