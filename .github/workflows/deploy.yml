@@ -87,7 +87,7 @@ jobs:
       - name: Run custom action
         uses: ./.github/actions/deploy-s3-javascript
       - name: Verify current files
-        runs: ls -R   
+        run: ls -R   
         env: 
           R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }} 
           R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }} 
