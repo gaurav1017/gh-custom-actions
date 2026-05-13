@@ -1,5 +1,6 @@
-name: 'Deploy to AWS s3'
-description: 'Deploy a static website via AWS S3.' 
-runs: 
-  using: 'node20' 
-  main:  'main.js'
+name: 'Deploy to Cloudflare R2'
+description: 'Deploy files to Cloudflare R2 storage.'
+
+runs:
+  using: 'node20'
+  main: 'main.js'
